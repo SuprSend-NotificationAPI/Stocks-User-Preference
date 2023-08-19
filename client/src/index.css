@@ -1,0 +1,40 @@
+.container3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.github,
+.suprsend {
+  position: relative;
+  padding-left: 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.github::before,
+.suprsend::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+.github::before {
+  background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+}
+
+.suprsend::before {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPV14L8bcSrGzlIvPFs3anNNiuhO8VaVTYi_ln326qFA&s');
+}
+
+.button-show {
+  margin-top: 40px;
+  color: black;
+  height: 20px;
+}
